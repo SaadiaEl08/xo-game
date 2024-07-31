@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>X O GAME</title>
+  </head>
+  <body>
+    <div class="globalContainer">
+      <div class="chose">
+        <p>how much players would play this game ?</p>
+        <div>
+          <button id="oneplayer">1 player</button>
+          <button id="twoplayes">2 players</button>
+          <button onclick="location.reload()" class="hidden" id="restart">
+            restart
+          </button>
+        </div>
+      </div>
+      <div class="controller" id="controller">
+        <p>X O GAME</p>
+      </div>
+      <div class="container disabled" id="container">
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+        <div class="xo"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
